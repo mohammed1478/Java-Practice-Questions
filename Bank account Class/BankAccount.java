@@ -6,6 +6,12 @@ public class BankAccount {
     private String customerName;
     private String email;
     private String phoneNum;
+    
+    
+    public BankAccount(){
+        System.out.println("Welcome to your Bank Account");
+    }
+    
 
     //_______________________________ GETTER / SETTER _______________________________________//
 
