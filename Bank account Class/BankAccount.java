@@ -1,7 +1,7 @@
 
 
 public class BankAccount {
-    private double balance = 1000.00;
+    private double balance;
     private String accountNum;
     private String customerName;
     private String email;
@@ -10,6 +10,7 @@ public class BankAccount {
     
     public BankAccount(){
         System.out.println("Welcome to your Bank Account");
+        balance = 1000.00
     }
     
 
